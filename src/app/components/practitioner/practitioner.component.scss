@@ -1,0 +1,42 @@
+.practitioner-wrap {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .container {
+    height: 95%;
+    width: 95%;
+    overflow: auto;
+    border: 1px solid #d7d7d7;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+
+    > div {
+      display: block;
+
+      &.list-wrap {
+        overflow: auto;
+        padding: 2px;
+        height: calc(100% - 50px);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+
+        .card{
+          margin: 15px!important;
+        }
+      }
+
+      .input {
+        width: 100%;
+        margin-bottom: 10px;
+      }
+
+
+    }
+
+  }
+}
